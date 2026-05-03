@@ -1,5 +1,5 @@
 # employee_hierarchy
-## 📌 Overview
+##  Overview
 
 This project analyzes a company's organizational structure based on employee data provided in a CSV file.
 
@@ -10,7 +10,7 @@ It validates:
 
 ---
 
-## 🚀 Problem Statement
+##  Problem Statement
 
 The company wants to ensure:
 
@@ -35,7 +35,7 @@ The application reports:
 
 ---
 
-## 📂 Input Format
+##  Input Format
 
 CSV file structure:
 
@@ -61,7 +61,7 @@ id,first_name,last_name,salary,manager_id
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Java (JDK 17)
 * Maven
@@ -69,7 +69,7 @@ id,first_name,last_name,salary,manager_id
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Clone the repository
 
@@ -87,12 +87,12 @@ mvn  install
 ### 3. Run the application
 
 ```
-mvn exec:java
+mvn spring-boot:run
 ```
 
 ---
 
-## 🧪 Run Tests
+##  Run Tests
 
 ```
 mvn test
@@ -100,7 +100,7 @@ mvn test
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 ### 1. Data Structure
 
@@ -122,7 +122,7 @@ mvn test
 
 ---
 
-## ⏱️ Time Complexity
+##  Time Complexity
 
 * Building hierarchy: **O(n)**
 * Traversal: **O(n)**
@@ -130,7 +130,7 @@ mvn test
 
 ---
 
-## ⚠️ Assumptions
+##  Assumptions
 
 * Input CSV is valid
 * No cyclic relationships
@@ -139,7 +139,7 @@ mvn test
 
 ---
 
-## 📈 Possible Improvements
+##  Possible Improvements
 
 * Add logging instead of console output
 * Export results to a file (CSV/JSON)
@@ -149,7 +149,7 @@ mvn test
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Your Name
 Baligi Durga Ram Prasad
